@@ -22,7 +22,7 @@ str(dt_date_subset)
 # Load associated variables
 globalActivePower <- as.numeric(dt_date_subset$Global_active_power)
 
-# Plotting ~ plot2.png
+# Plotting ~ plot1.png
 png("plot1.png", width = 480, height = 480)
 hist(globalActivePower, col = "red", main = "Global Active Power", xlab = "Global Active Power(kilowatts)", ylab = "Frequency")
 dev.off()
